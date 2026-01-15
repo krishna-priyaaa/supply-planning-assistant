@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Sensitive documents
+data/
+*.pdf
+*.docx
+*.pptx
+*.txt
+*.md
+
+# Metadata
+*_index.json
+*_map.json
+runtime_metadata/
+extracted/
+
+# RAG runtime outputs
+embeddings/
+vector_store/
+faiss_index/
+chroma_db/
+
+# Logs
+logs/
+tmp/
+
+!README.md
